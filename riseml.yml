@@ -1,0 +1,7 @@
+image:
+  - riseml/base:latest-squashed
+service:
+  commands:
+    - apt-get -y update
+    - apt-get -y install python3-minimal
+    - python3 -m http.server --cgi $PORT
