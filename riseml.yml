@@ -5,4 +5,4 @@ service:
     - apt-get -y update
     - apt-get -y install python3-minimal python3-pip
     - pip3 install -r requirements.txt
-    - python3 demo.px
+    - python3 demo.py
