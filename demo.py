@@ -11,4 +11,4 @@ def transform(in_bytes):
   out_img.save(out_bytes, 'JPEG')
   return out_bytes.getvalue()
 
-riseml.server.serve(transform, port=os.environ.get('PORT'))
+riseml.server.serve(transform)
