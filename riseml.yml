@@ -1,5 +1,5 @@
 deploy:
-  gpu: yes
+  gpu: no
   image:
     name: riseml/base:latest-squashed
   run:
