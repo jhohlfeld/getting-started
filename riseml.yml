@@ -1,8 +1,8 @@
 deploy:
   image:
     name: riseml/base:latest-squashed
-  install:
-    - /bin/echo hello
+    install:
+      - /bin/echo hello
   run:
     - apt-get -y update
     - apt-get -y install python3-minimal python3-pip
