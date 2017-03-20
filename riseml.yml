@@ -9,4 +9,6 @@ deploy:
     - python3 demo.py
   input: image/jpeg
   output: image/jpeg
-
+  demo:
+    title: "Getting started with RiseML
+    description: "rotate by 180°"
