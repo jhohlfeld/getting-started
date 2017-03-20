@@ -9,3 +9,4 @@ deploy:
     - python3 demo.py
   input: image/jpeg
   output: image/jpeg
+
