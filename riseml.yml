@@ -12,3 +12,4 @@ deploy:
   demo:
     title: "Getting started with RiseML"
     description: "rotate by 180 degrees"
+
