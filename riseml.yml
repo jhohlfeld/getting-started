@@ -7,8 +7,10 @@ deploy:
     - apt-get -y install python3-minimal python3-pip
     - pip3 install -r requirements.txt
     - python3 demo.py
-  input: image/jpeg
-  output: image/jpeg
+  input:
+    image: image/jpeg
+  output:
+    image: image/jpeg
   demo:
     title: "Getting started with RiseML"
     description: "rotate by 180°"
