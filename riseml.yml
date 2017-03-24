@@ -14,7 +14,7 @@ deploy:
     description: "rotate by 180°"
     readme:
       content: |
-        ***header***
-        **subheader**
-        *subsubheader*
+        # header
+        ## subheader
+        ### subsubheader
         text
