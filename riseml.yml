@@ -1,4 +1,5 @@
 deploy:
+  gpu: no
   image:
     name: riseml/base:latest-squashed
   run:
@@ -9,13 +10,15 @@ deploy:
   input:
     image: image/jpeg
   output:
-    image: object-rectangles
+    image: image/jpeg
   demo:
-    title: sample title
-    description: sample description
-    samples:
-      - cat.jpg
+    title: "Getting started with RiseML"
+    description: "rotate by 180°"
     readme:
       content: |
-        # this is a headline
-        content here
+        # header
+        ## subheader
+        ### subsubheader
+        text
+    samples:
+      - cat.jpg
